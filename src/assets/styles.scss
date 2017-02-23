@@ -1,0 +1,36 @@
+// Table of Contents
+//
+// Colors
+
+
+
+// Colors
+// Start with assigning color names to specific hex values.
+$white:  #fff;
+$black:  #000;
+$red:    #d9534f;
+$orange: #ed6924;
+$yellow: #ffef8d;
+$green:  #02d35f;
+$blue:   #00b2e2;
+$teal:   #71d6e0;
+$pink:   #de0080;
+$purple: #841781;
+
+// Create grayscale
+$gray-dark:                 #292b2c;
+$gray:                      #5f5f5f;
+$gray-light:                #a7a9ac;
+$gray-lighter:              #dcddde;
+$gray-lightest:             #ededed;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $green;
+$brand-success:             $green;
+$brand-info:                $teal;
+$brand-warning:             $orange;
+$brand-danger:              $red;
+$brand-inverse:             $gray-dark;
+
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
