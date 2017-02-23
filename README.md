@@ -27,3 +27,14 @@ Run `npm test` to execute the unit tests<br>
 Run `npm run-script e2e` to execute the e2e tests. Make sure to serve the app via `ng serve` before running the tests<br>
 Run `npm run-script build` to build the project for production<br>
 Run `npm run-script lint` to analyse the code for potential errors<br>
+
+## Set up a debugger in webstorm
+
+1. In Webstorm, go to _Run | Edit Configurations..._
+2. Click the _Add New Configuration button (+)_ and choose _JavaScript Debug_
+3. Choose the newly created configuration and specify the following, in the _Run/Debug Configuration: JavaScript Debug_ dialog box
+    * Choose a name
+    * Change the URL to `http://localhost:4200`
+    * In the _Remote URLs of local files (optional)_ dialog, add the remote url `webpack:///<dir_to_project>` to the project root folder
+    and the remote url `webpack:///<dir_to_project>/src` to the src folder
+4. Now, it should be possible to debug the project. You might have to reload your browser when it doesn't work on the first try
