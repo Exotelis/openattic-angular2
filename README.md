@@ -37,4 +37,5 @@ Run `npm run-script lint` to analyse the code for potential errors<br>
     * Change the URL to `http://localhost:4200`
     * In the _Remote URLs of local files (optional)_ dialog, add the remote url `webpack:///<dir_to_project>` to the project root folder
     and the remote url `webpack:///<dir_to_project>/src` to the src folder
-4. Now, it should be possible to debug the project. You might have to reload your browser when it doesn't work on the first try
+4. Don't forget to install the _JetBrains IDE Support_ extension for chrome and to run `ng serve` before you start debugging
+5. Now, it should be possible to debug the project. You might have to reload your browser when it doesn't work on the first try
