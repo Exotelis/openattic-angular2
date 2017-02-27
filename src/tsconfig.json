@@ -1,4 +1,8 @@
 {
+  "angularCompilerOptions": {
+    "genDir": "./locale",
+    "skipMetadataEmit" : true
+  },
   "compilerOptions": {
     "baseUrl": "",
     "declaration": false,
@@ -14,5 +18,8 @@
     "typeRoots": [
       "../node_modules/@types"
     ]
-  }
+  },
+  "exclude": [
+    "test.ts"
+  ]
 }
