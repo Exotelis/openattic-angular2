@@ -23,9 +23,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Npm commands
 Run `npm start` for a dev server<br>
 Run `npm test` to execute the unit tests<br>
-Run `npm run-script e2e` to execute the e2e tests. Make sure to serve the app via `ng serve` before running the tests<br>
-Run `npm run-script build` to build the project for production<br>
-Run `npm run-script lint` to analyse the code for potential errors<br>
+Run `npm run e2e` to execute the e2e tests. Make sure to serve the app via `ng serve` before running the tests<br>
+Run `npm run build` to build the project for production<br>
+Run `npm run lint` to analyse the code for potential errors<br>
 
 ## Set up a debugger in webstorm
 1. In Webstorm, go to _Run | Edit Configurations..._
