@@ -5,8 +5,8 @@
   "license": "GPL-2.0",
   "repository": "bitbucket:openattic/openattic",
   "scripts": {
-    "build": "ng build --prod",
-    "build:de": "ng build --prod --aot --locale de --i18n-file src/locale/messages.de.xlf --i18n-format xlf",
+    "build": "ng build -prod",
+    "build:de": "ng build -prod -aot --locale de --i18n-file src/locale/messages.de.xlf --i18n-format xlf",
     "e2e": "ng e2e",
     "i18n": "ng xi18n --output-path src/locale",
     "lint": "ng lint",
