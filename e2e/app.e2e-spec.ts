@@ -1,6 +1,6 @@
 import { OpenatticPage } from './app.po';
 
-describe('openattic App', function() {
+describe('openATTIC', () => {
   let page: OpenatticPage;
 
   beforeEach(() => {
