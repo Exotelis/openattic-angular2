@@ -18,12 +18,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Npm commands
 Run `npm start` for a dev server<br>
 Run `npm test` to execute the unit tests<br>
-Run `npm run e2e` to execute the e2e tests. Make sure to serve the app via `ng serve` before running the tests<br>
+Run `npm run e2e` to execute the e2e tests<br>
 Run `npm run build` to build the project for production<br>
 Run `npm run build:de` to build the project for production in german<br>
 Run `npm run i18n` to generate the locale file messages.xlf<br>
