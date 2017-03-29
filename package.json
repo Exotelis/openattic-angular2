@@ -1,9 +1,9 @@
 {
-  "name": "openattic-gui",
+  "name": "openattic_ui-core",
   "description": "openATTICs graphical user interface",
   "version": "3.0.0",
   "license": "GPL-2.0",
-  "repository": "bitbucket:openattic/openattic",
+  "repository": "github:Exotelis/openattic_ui-core",
   "scripts": {
     "build": "ng build -prod",
     "build:de": "ng build -prod -aot --locale de --i18n-file src/locale/messages.de.xlf --i18n-format xlf",
